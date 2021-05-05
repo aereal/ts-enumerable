@@ -4,7 +4,8 @@
   "author": "aereal <aereal@aereal.org>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rm -rf dist && tsc -p ."
   },
   "jest": {
     "roots": [

@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["ES2020"],
+    "module": "commonjs",
+    "outDir": "./dist",
+    "skipLibCheck": true,
     "strict": true,
     "target": "ES2020"
   },
